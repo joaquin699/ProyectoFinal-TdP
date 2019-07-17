@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Diario de Glucosa</string>
+    <string name="valores_name">Mis Valores</string>
+    <string name="estadisticas_name">Estadisticas</string>
+    <string name="cargar_valor_name">Cargar Valor</string>
+</resources>
