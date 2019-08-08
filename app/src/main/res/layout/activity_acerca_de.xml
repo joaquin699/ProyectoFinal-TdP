@@ -25,7 +25,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="16dp"
-                android:text="Información y Ayuda"
+                android:text="@string/mensaje_ad_informacion_titulo"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -39,7 +39,7 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
-                android:text="En esta sección de la aplicación se mostrarán algunas estadísticas sobre los valores almacenados. Se deberá elegir la cantidad de días que se desea ver así también como el momento del día. Una vez elegido los parámetros, se mostrara el valor promedio, la cantidad de mediciones realizadas, la cantidad de mediciones promedio realizadas, la cantidad de hipoglucemias (es decir, la cantidad de valores menores o iguales a 70) y la cantidad de hiperglucemias (es decir, la cantidad de valores mayores o iguales a 170)."
+                android:text="@string/mensaje_ad_informacion"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tvTituloInformacion" />
@@ -51,7 +51,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="16dp"
-                android:text="Cargar Valores"
+                android:text="@string/mensaje_ad_cargar_valores_titulo"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tvInformacion" />
@@ -65,7 +65,7 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
-                android:text="En esta sección se permite la carga de un valor de glucosa, indicando fecha, hora, momento y valor de la medición, pudiéndose ingresar una observación si es necesario."
+                android:text="@string/mensaje_ad_cargar_valores"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tvTituloCargaValores" />
@@ -77,7 +77,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="16dp"
-                android:text="Estadísticas"
+                android:text="@string/mensaje_ad_estadisticas_titulo"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tvCargaValores" />
@@ -92,7 +92,7 @@
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginBottom="16dp"
-                android:text="En esta sección de la aplicación se mostrarán algunas estadísticas sobre los valores almacenados. Se deberá elegir la cantidad de días que se desea ver así también como el momento del día. Una vez elegido los parámetros, se mostrara el valor promedio, la cantidad de mediciones realizadas, la cantidad de mediciones promedio realizadas, la cantidad de hipoglucemias (es decir, la cantidad de valores menores o iguales a 70) y la cantidad de hiperglucemias (es decir, la cantidad de valores mayores o iguales a 170)."
+                android:text="@string/mensaje_ad_estadisticas"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

@@ -3,4 +3,26 @@
     <string name="valores_name">Mis Valores</string>
     <string name="estadisticas_name">Estadisticas</string>
     <string name="cargar_valor_name">Cargar Valor</string>
+    <string name="boton_cv_fecha">--/--/--</string>
+    <string name="boton_cv_hora">--:--</string>
+    <string name="mensaje_cv_momento_medicion">Momento de la Medicion</string>
+    <string name="edit_cv_ingresar_valor">Ingrese el Valor</string>
+    <string name="mensaje_cv_comentario">AGREGAR COMENTARIO</string>
+    <string name="mensaje_cv_fecha">Fecha</string>
+    <string name="mensaje_ad_informacion_titulo">Información y Ayuda</string>
+    <string name="mensaje_ad_informacion">En esta sección de la aplicación se mostrarán algunas estadísticas sobre los valores almacenados. Se deberá elegir la cantidad de días que se desea ver así también como el momento del día. Una vez elegido los parámetros, se mostrara el valor promedio, la cantidad de mediciones realizadas, la cantidad de mediciones promedio realizadas, la cantidad de hipoglucemias (es decir, la cantidad de valores menores o iguales a 70) y la cantidad de hiperglucemias (es decir, la cantidad de valores mayores o iguales a 170).</string>
+    <string name="mensaje_ad_cargar_valores_titulo">Cargar Valores</string>
+    <string name="mensaje_ad_cargar_valores">En esta sección se permite la carga de un valor de glucosa, indicando fecha, hora, momento y valor de la medición, pudiéndose ingresar una observación si es necesario.</string>
+    <string name="mensaje_ad_estadisticas_titulo">Estadísticas</string>
+    <string name="mensaje_ad_estadisticas">En esta sección de la aplicación se mostrarán algunas estadísticas sobre los valores almacenados. Se deberá elegir la cantidad de días que se desea ver así también como el momento del día. Una vez elegido los parámetros, se mostrara el valor promedio, la cantidad de mediciones realizadas, la cantidad de mediciones promedio realizadas, la cantidad de hipoglucemias (es decir, la cantidad de valores menores o iguales a 70) y la cantidad de hiperglucemias (es decir, la cantidad de valores mayores o iguales a 170).</string>
+    <string name="mensaje_e_datos_visualizar">Datos a Visualizar</string>
+    <string name="mensaje_e_momento_dia">Momento del Dia</string>
+    <string name="boton_e_calcular">Calcular</string>
+    <string name="mensaje_e_ultimos_dias">Ultimos Dias:</string>
+    <string name="mensaje_e_promedio">Promedio</string>
+    <string name="mensaje_e_entradas">Entradas</string>
+    <string name="mensaje_e_entradas_dia">Entradas/\nDia</string>
+    <string name="mensaje_e_hipoglucemias">Hipoglucemias</string>
+    <string name="mensaje_e_hiperglucemias">Hiperglucemias</string>
+
 </resources>

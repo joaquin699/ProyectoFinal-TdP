@@ -28,7 +28,7 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="16dp"
                 android:fontFamily="monospace"
-                android:text="Datos a visualizar"
+                android:text="@string/mensaje_e_datos_visualizar"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -54,7 +54,7 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="16dp"
                 android:fontFamily="monospace"
-                android:text="Momento del Dia"
+                android:text="@string/mensaje_e_momento_dia"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/spinnerDias" />
 
@@ -83,7 +83,7 @@
                 android:layout_marginRight="16dp"
                 android:background="#E9F7FA"
                 android:onClick="calcularEstadisticas"
-                android:text="Calcular"
+                android:text="@string/boton_e_calcular"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/spinnerMoment" />
@@ -98,7 +98,7 @@
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
                 android:fontFamily="monospace"
-                android:text="TextView"
+                android:text="@string/mensaje_e_ultimos_dias"
                 android:visibility="visible"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -128,7 +128,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:fontFamily="monospace"
-                android:text="Promedio"
+                android:text="@string/mensaje_e_promedio"
                 app:layout_constraintEnd_toEndOf="@+id/tvPromedio"
                 app:layout_constraintStart_toStartOf="@+id/tvPromedio"
                 app:layout_constraintTop_toBottomOf="@+id/tvPromedio" />
@@ -157,7 +157,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:fontFamily="monospace"
-                android:text="Entradas"
+                android:text="@string/mensaje_e_entradas"
                 app:layout_constraintEnd_toEndOf="@+id/tvEntradas"
                 app:layout_constraintStart_toStartOf="@+id/tvEntradas"
                 app:layout_constraintTop_toBottomOf="@+id/tvEntradas" />
@@ -187,7 +187,7 @@
                 android:layout_marginTop="8dp"
                 android:fontFamily="monospace"
                 android:gravity="center"
-                android:text="Entradas/\nDia"
+                android:text="@string/mensaje_e_entradas_dia"
                 app:layout_constraintEnd_toEndOf="@+id/tvEntradasDia"
                 app:layout_constraintStart_toStartOf="@+id/tvEntradasDia"
                 app:layout_constraintTop_toBottomOf="@+id/tvEntradasDia" />
@@ -217,7 +217,7 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="16dp"
                 android:fontFamily="monospace"
-                android:text="Hipoglucemias"
+                android:text="@string/mensaje_e_hipoglucemias"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="@+id/tvHipo"
                 app:layout_constraintStart_toStartOf="@+id/tvHipo"
@@ -248,7 +248,7 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="16dp"
                 android:fontFamily="monospace"
-                android:text="Hiperglucemias"
+                android:text="@string/mensaje_e_hiperglucemias"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="@+id/tvHiper"
                 app:layout_constraintHorizontal_bias="0.409"

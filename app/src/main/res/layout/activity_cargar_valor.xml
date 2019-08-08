@@ -16,7 +16,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:fontFamily="monospace"
-        android:text="Fecha"
+        android:text="@string/mensaje_cv_fecha"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -31,7 +31,7 @@
         android:background="#E9F7FA"
         android:drawableLeft="@mipmap/imagen_calendario"
         android:onClick="seleccionarFecha"
-        android:text="Button"
+        android:text="@string/boton_cv_fecha"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mensajeFecha" />
 
@@ -60,7 +60,7 @@
         android:background="#E9F7FA"
         android:drawableLeft="@mipmap/imagen_reloj"
         android:onClick="seleccionarHora"
-        android:text="Button"
+        android:text="@string/boton_cv_hora"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mensajeFecha" />
 
@@ -74,7 +74,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:fontFamily="monospace"
-        android:text="Momento de la Medicion"
+        android:text="@string/mensaje_cv_momento_medicion"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -104,7 +104,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:ems="10"
-        android:hint="Ingrese el valor"
+        android:hint="@string/edit_cv_ingresar_valor"
         android:inputType="number"
         android:maxLength="3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -121,7 +121,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:fontFamily="monospace"
-        android:text="AGREGAR COMENTARIO"
+        android:text="@string/mensaje_cv_comentario"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

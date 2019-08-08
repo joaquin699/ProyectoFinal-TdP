@@ -174,6 +174,8 @@ public class ValorGlucosa implements Parcelable {
         visitor.visitarValor(this);
     }
 
+
+    //Implementacion Interfaz Parcelable
     protected ValorGlucosa(Parcel in) {
         valor = in.readInt();
         year = in.readInt();

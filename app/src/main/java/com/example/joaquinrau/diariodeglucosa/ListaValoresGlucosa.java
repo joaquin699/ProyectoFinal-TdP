@@ -7,10 +7,13 @@ import java.util.ArrayList;
 
 public class ListaValoresGlucosa extends ArrayList<ValorGlucosa> implements Parcelable {
 
+
+
     public ListaValoresGlucosa(){
 
     }
 
+    //Implementacion Interfaz Parcelable
     public void writeToParcel(Parcel dest, int flags){
         int size= this.size();
         dest.writeInt(size);
